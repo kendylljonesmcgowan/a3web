@@ -1,0 +1,20 @@
+/* css for group 11 a3 */
+
+/*Tim's Part*/
+.logo{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 5px;
+    }
+  
+  .navbg{
+    background-color: #416a59;
+    }
+  
+  a:link, a:visited{
+    color: #f5eec2
+    }
+  
+  a:hover, a:active{
+    color: #73a24e
+    }
