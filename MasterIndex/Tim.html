@@ -1,53 +1,76 @@
-<!DOCTYPE html>
-<html>
-<style>
-.nav-top{
-	position:fixed;
-	width:100%;
-	z-index:1}
-.nav-top{top:0}
-.nav-white,.nav-hover-white:hover{
-	color:#000;background-color:#fff
-	}
-.nav-card{
-	box-shadow:0 5px 10px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
-	}
-.nav-bar .nav-bar-item{
-	padding:14px 20px;
-	float:left;width:auto;
-	border:none;display:block;
-	outline:0
-	}
-.nav-button:hover{
-	color:#000;
-	background-color:#ccc
-	}
-.nav-right{
-	float:right!important
-	}
-.logo{
-	max-width: 50px;
-	width: 100%;
-	margin-top: 3px
-	}
-</style>
 
-<body>
+<html lang="en">
 
-<div class="nav-top">
-    <div class="nav-bar nav-white nav-card" id="myNavbar">
-      <a href="#top" class="w3-bar-item w3-button w3-wide">
-	  <img class="logo" src="/images/Logo.png" alt="VTACK Logo">
-	  </a>
-      <!-- Right-sided navbar links -->
-      <div class="nav-right nav-hide-small">
-        <a href="#about" class="nav-bar-item nav-button">ABOUT US</a>
-        <a href="#team" class="nav-bar-item nav-button"><i class="fa fa-user"></i> OUR TEAM</a>
-        <a href="#work" class="nav-bar-item nav-button"><i class="fa fa-th"></i> PROJECTS</a>
-        <a href="#pricing" class="nav-bar-item nav-button"><i class="fa fa-usd"></i> PRICING</a>
-        <a href="#contact" class="nav-bar-item nav-button"><i class="fa fa-envelope"></i> CONTACT</a>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+	
+	<style>
+	.logo{
+		max-width: 50px;
+		width: 100%;
+		border-radius: 5px;
+		}
+	
+	.navbg{
+		background-color: #416a59;
+		}
+	
+	a:link, a:visited{
+		color: #f5eec2
+		}
+	
+	a:hover, a:active{
+		color: #73a24e
+		}
+		
+	</style>
+	
+	<body>
+	  <nav id="mainNav" class="navbar navbar-expand-sm navbg fixed-top py-1">
+		<div class="container">
+		  <div class="navbar-header">	  
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			  <img class="logo" src="Logo.png" alt="VTACK">
+			</a>
+		  </div>	
+			<div class="collapse navbar-collapse" id="navBarResponsive">
+				<ul class="navbar-nav ml-auto my-2 my-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link navtext js-scroll-trigger" href="#team">OUR TEAM</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link navtext js-scroll-trigger" href="#projects">PROJECTS</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link navtext js-scroll-trigger" href="#contact">CONTACT US</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	  </nav>
+		
+<script>
+$(document).ready(function(){
+	$('body').scrollspy({target: ".navbar", offset: 50});   
+
+	$("#myNavbar a").on('click', function(event) {
+	if (this.hash !== "") {
+		event.preventDefault();
+
+		var hash = this.hash;
+
+		$('html, body').animate({
+		scrollTop: $(hash).offset().top
+		}, 800, function(){
+	
+		window.location.hash = hash;
+		});
+	}
+	});
+});
+</script>
+		
+	</script>  
+	</body>
+	</html>
