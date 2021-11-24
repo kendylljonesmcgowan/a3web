@@ -10,7 +10,7 @@
 	.logo{
 		max-width: 50px;
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 5px; 
 		}
 	
 	.navbg{
@@ -34,7 +34,7 @@
 		<div class="container">
 		  <div class="navbar-header">	  
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">
-			  <img class="logo" src="Logo.png" alt="VTACK">
+			  <img class="logo" src="/images/Logo.png" alt="VTACK">
 			</a>
 		  </div>	
 			<div class="collapse navbar-collapse" id="navBarResponsive">
@@ -58,7 +58,7 @@
 $(document).ready(function(){
 	$('body').scrollspy({target: ".navbar", offset: 50});   
 
-	$("#myNavbar a").on('click', function(event) {
+	$("#mainNav a").on('click', function(event) {
 	if (this.hash !== "") {
 		event.preventDefault();
 
