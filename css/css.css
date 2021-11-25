@@ -18,3 +18,23 @@
   a:hover, a:active{
     color: #73a24e
     }
+
+/*Vince's Part*/
+#bg {
+  /* The image used */
+  background-image: url("/images/background5.jpg");
+
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#landing{
+  top:20%;
+  font-size: 2.5em;
+  font-weight: 700;
+  color:#f5eec2;
+  background-color: rgba(0, 0, 0, 0.7);
+}
