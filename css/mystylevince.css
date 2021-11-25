@@ -44,6 +44,9 @@ a:hover, a:active{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#companylogo{
+  width: 20%;
+}
 
 #landing{
   top:20%;
