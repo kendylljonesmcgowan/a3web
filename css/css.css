@@ -44,3 +44,9 @@
 .jumbotron{
   background-color: #39395f;
 }
+
+/*Kendyll's Part*/
+img {
+  width: 100%;
+  height: auto;
+}
