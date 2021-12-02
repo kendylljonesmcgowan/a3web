@@ -46,6 +46,8 @@
 }
 
 /*Kendyll's Part*/
+
+/*object-fit contain CSS for headshot images inspired by w3schools: https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 .headshot {
   width: 200px;
   height: 300px;
