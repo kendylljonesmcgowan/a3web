@@ -47,6 +47,7 @@
 
 /*Kendyll's Part*/
 img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
 }
