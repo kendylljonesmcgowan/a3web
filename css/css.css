@@ -95,8 +95,10 @@
 /* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
 
 .project2img {
-  width: 200px;
-  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
   object-fit: contain;
 }
 
@@ -106,10 +108,6 @@
 
 .margin {
   margin-top: 100px;
-}
-
-.marginb {
-  margin-bottom: 100px;
 }
 
 .teambackground {
