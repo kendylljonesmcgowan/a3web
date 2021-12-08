@@ -30,11 +30,13 @@
                 <a class="navbar-brand" href="#top">
                     <img class="logo" src="images/LogoResize.png" alt="Pollution">
                 </a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsivenavbar">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsivenavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                        
-                  </button> 
+                  </button>  -->
             </div>	
             <div class="collapse navbar-collapse" id="responsivenavbar">
                 <!--Navbar links and icons-->
@@ -247,5 +249,15 @@
     <div class="row">
 </div>
 </section>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
