@@ -99,6 +99,10 @@
   color: #565694;
 }
 
+.teambackground {
+  background-color: #39395f;
+}
+
 /* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
 /* project 2 page css (LiDAR and Bathymetry */
 
@@ -112,6 +116,12 @@
 
 .project2titlefont {
   font-family: Volkhov;
+  color: #39395f;
+}
+
+.project2font {
+  font-family: Lato;
+  color: #39395f;
 }
 
 .project2background{
@@ -120,8 +130,4 @@
 
 .margin {
   margin-top: 100px;
-}
-
-.teambackground {
-  background-color: #39395f;
 }
