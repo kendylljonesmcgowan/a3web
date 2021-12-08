@@ -58,6 +58,7 @@
 }
 
 /* Colin's Part */
+
 .page-section {
   padding: 5rem 0;
 }
@@ -71,10 +72,9 @@
 
 #sTitle{
   color: #000000;
+  font-family: "Volkhov";
 }
-.ServiceText{
-  font: italic;
-}
+
 #footer{
   background-color: #39395f;
 }
