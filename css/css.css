@@ -31,13 +31,19 @@
   height: 65px;
   visibility: hidden;
   }
-.project3{
+
+  .project3{
   width: 100%;
   max-width: 400px;
   height: 100%;
   max-height: 400px;
   object-fit: contain;  
 }
+
+  .sectionmargin{
+  margin-top: 50px;
+}
+
 /*Vince's Part*/
 #bg {
   /* The image used */
