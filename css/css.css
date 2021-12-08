@@ -100,8 +100,8 @@
 }
 
 /* .btn-purple {
-  color: #565694;
-} */
+  background-color: #565694;
+}  */
 
 .teambackground {
   background-color: #39395f;
@@ -119,7 +119,7 @@
 }
 
 .project2titlefont {
-  font-family: "Volkhov";
+  font-family: "Volkhov, Bold";
   color: #39395f;
 }
 
