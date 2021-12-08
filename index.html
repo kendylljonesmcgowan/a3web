@@ -15,28 +15,25 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Volkhov">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" >
     <title>VTACK | Give Us an A!</title>
   
 </head>
 <body>
 <!-- Nav Bar (Tim)-->
-<div class="container-fluid">
+<div id="bg" class="container-fluid"> <!--Background ID(VINCE)-->
   <!--Navigation bar, stack navbar vertically on small screens, always fixed top, size-->	
     <nav id="mainNav" class="navbar navbar-expand-sm navbg fixed-top py-1">
-        <div class="container topnav" id="myTopnav">
+        <div class="container">
             <div class="navbar-header">	
                 <!--Insert logo in navbar, click on logo image to go to top--> 
                 <a class="navbar-brand" href="#top">
                     <img class="logo" src="images/LogoResize.png" alt="Pollution">
                 </a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsivenavbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsivenavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                        
-                  </button>  -->
+                  </button> 
             </div>	
             <div class="collapse navbar-collapse" id="responsivenavbar">
                 <!--Navbar links and icons-->
@@ -63,8 +60,8 @@
             </div>
         </div>
     </nav>
-    
-    <!-- <section class="page-section" id="home">
+    <!--Landing Page (Vince)-->
+    <section class="page-section" id="home">
         <div id = "landing" class = "col-md-8 offset-md-2">
             <img class="companylogo" src="images/Logo2.png">
             <p class="text-center">Insert Slogan</p>
@@ -72,23 +69,7 @@
             <p class="text-center">Insert Button</p>
             <p class="text-center">Insert social media link</p>
         </div>
-    </section> -->
-</div>
-
-<!--Landing Page (Vince)-->
-<div id="bg" class="jumbotron jumbotron-fluid">
-    <div id="transparentbg" class = "container-fluid text-center">
-    <div id="landingcont" class = "container-fluid text-center">
-        <!-- <img id="companylogo" src="images/Logo2.png"> -->
-        <h1 id="maintext">VTACK</h1>
-        <hr id="landingdivider"class="divider my-4">
-        <h2 id="slogan">Give Us an A! Please!</h2>
-        <h3 id="supplementary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra turpis ac arcu cursus auctor. Integer sed odio orci. Nulla egestas iaculis rutrum. Donec non nisi sit amet massa fringilla interdum ut in magna</h3>
-        <a href="https://www.linkedin.com" id="smlink" class="fa fa-linkedin"></a>
-        <a href="https://www.facebook.com" id="smlink" class="fa fa-facebook"></a>
-        <a href="https://www.instagram.com" id="smlink" class="fa fa-instagram"></a>
-    </div>
-    </div>
+    </section>
 </div>
 
 
@@ -165,7 +146,7 @@
               <p class="text-muted mb-0">Abraham Lincoln, aka Honest Abe, was the 16th president of the United States (1861–65). 
                                         He joined VTACK with little experience in the consulting industry. Now, he is VTACK's CEO,
                                         and one of the most talented consultants worldwide.</p>
-              <a id="button" class="btn btn-purple btn-xl js-scroll-trigger" onclick='document.getElementById("button").innerHTML = "Phone: 123-456-789 E-mail: support@VTACK.ca"'>Contact</a> 
+              <a id="button" class="btn btn-light btn-xl js-scroll-trigger" onclick='document.getElementById("button").innerHTML = "Phone: 123-456-789 E-mail: support@VTACK.ca"'>Contact</a> 
           </div>
       </div>
 
@@ -249,15 +230,5 @@
     <div class="row">
 </div>
 </section>
-<script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
 </body>
 </html>
