@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+#containerleft {
+    height: 100vh;
+    background-image: url("../images/hydro.jpg");
+}
+
+#ltext {
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+#project4title {
+    font-size: 9vh;
+}
+
+
+#containerright {
+    height: 100vh;
+    background-color:#F5EEC2;
+}
+
+#rtext {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* FOR INDEX */
+/*Vince's Part*/
+#bg {
+    /* The image used */
+    /* margin-top: 4vh; */
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/background5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  #landing{
+    /* width:100%; */
+    top: 50%;
+    transform: translateY(50%);
+    background-color: rgba(0, 0, 0, 0.7);
+  }
