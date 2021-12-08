@@ -70,8 +70,8 @@
 
 /* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
 
-.project2 {
+.project2img {
   width: 400px;
   height: 600px;
-  /* object-fit: contain; */
+  object-fit: contain;
 }
