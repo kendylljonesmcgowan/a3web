@@ -21,15 +21,8 @@
     color: #73a24e
     }
 
-#services::before,
-#OurTeam::before,
-#projects::before,
-#contact::before {
-  display: block;
-  content: " ";
-  margin-top: -65px;
-  height: 65px;
-  visibility: hidden;
+  .p3bg{
+    background-color: #f5eec2;
   }
 
   .project3{
