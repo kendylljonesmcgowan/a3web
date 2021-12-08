@@ -64,23 +64,71 @@
   }
 }
 /*Vince's Part*/
+/* FOR INDEX */
+/*Vince's Part*/
 #bg {
-  /* The image used */
-  background-image: url("../images/background5.jpg");
-
+  margin: 0;
+  padding: 0;
   height: 100vh;
-  width: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
+  background-image: url("../images/background5.jpg");
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#landing{
-  top:20%;
-  font-size: 2.5em;
-  font-weight: 700;
-  color:#f5eec2;
-  background-color: rgba(0, 0, 0, 0.7);
+#transparentbg{
+  height: 100%;
+  /* background-color: rgba(245, 238, 194, 0.4); */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#landingcont{
+  padding-top: 20vh;
+  height: 100vh;
+  width: 70%;
+  /* background-color: rgba(245, 238, 194, 1); */
+}
+
+/* #companylogo{
+  height: 40%;
+} */
+
+#maintext{
+  font-size: 10vh;
+  /* letter-spacing: 0.1em; */
+  color:#73a24e;
+  font-family: "Volkhov";
+  margin-bottom:4vh;
+}
+
+#landingdivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+
+#slogan{
+  font-size: 5vh;
+  font-family: "Volkhov";
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color:#F5EEC2;
+}
+
+#supplementary{
+  font-size: 2.5vh;
+  font-family: "Lato";
+  color:#F5EEC2;
+  padding-bottom: 10vh;
+}
+
+#smlink {
+  font-size: 2.5vh;
+  width: 4vw;
+  /* padding-left: 100;
+  padding-right: ; */
+  /* text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; */
 }
 
 /* Colin's Part */
@@ -145,4 +193,8 @@
 
 .teambackground {
   background-color: #39395f;
+}
+
+.btn-purple {
+  color: #505088;
 }
