@@ -184,12 +184,12 @@
 }
 
 /* trying to change button colour */
-.btn-light {
+.btn {
   color:#39395f;
   background-color:#565694;
   border-color:#f8f9fa;
 }
-.btn-light:hover {
+.btn:hover {
   color:#39395f;
   background-color:#9b9bda;
   border-color:#dae0e5;
