@@ -64,6 +64,21 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Colin's Part */
+.page-section {
+  padding: 8rem 0;
+}
+.divider my-4{
+  width: 12px;
+}
+#services{
+  background-color: #f5eec2;
+}
+#sIcon{
+  color: #416a59;
+}
+
+
 .jumbotron{
   background-color: #39395f;
 }
