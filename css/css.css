@@ -36,99 +36,25 @@
   .sectionmargin{
   margin-top: 100px;
 }
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-  .topnav .icon{
-  display: none;
-}
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-/*Vince's Part*/
-/* FOR INDEX */
+
 /*Vince's Part*/
 #bg {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  /* The image used */
   background-image: url("../images/background5.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-#transparentbg{
-  height: 100%;
-  /* background-color: rgba(245, 238, 194, 0.4); */
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#landingcont{
-  padding-top: 20vh;
   height: 100vh;
-  width: 70%;
-  /* background-color: rgba(245, 238, 194, 1); */
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* #companylogo{
-  height: 40%;
-} */
-
-#maintext{
-  font-size: 10vh;
-  /* letter-spacing: 0.1em; */
-  color:#73a24e;
-  font-family: "Volkhov";
-  margin-bottom:4vh;
-}
-
-#landingdivider{
-  max-width: 20vw;
-  border-width: 0.2rem;
-  border-color: #416a59;
-}
-
-#slogan{
-  font-size: 5vh;
-  font-family: "Volkhov";
-  /* font-family: Arial, Helvetica, sans-serif; */
-  color:#F5EEC2;
-}
-
-#supplementary{
-  font-size: 2.5vh;
-  font-family: "Lato";
-  color:#F5EEC2;
-  padding-bottom: 10vh;
-}
-
-#smlink {
-  font-size: 2.5vh;
-  width: 4vw;
-  /* padding-left: 100;
-  padding-right: ; */
-  /* text-align: center;
-  text-decoration: none;
-  margin: 5px 2px; */
+#landing{
+  top:20%;
+  font-size: 2.5em;
+  font-weight: 700;
+  color:#f5eec2;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Colin's Part */
@@ -158,34 +84,25 @@
 /* object-fit contain CSS for headshot images inspired by w3schools: https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
 /* index.html css */
-/* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
+
 .headshot {
   width: 200px;
   height: 300px;
   object-fit: contain;
 }
 
-.teamtitlefont {
-  font-family: Volkhov;
-}
+/* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
 
-.teambackground {
-  background-color: #39395f;
-}
-
-.btn-purple {
-  color: #505088;
-}
-
-
-
-/* css for project2 page (LiDAR and Bathymetry services) */
 .project2img {
   width: 100%;
   max-width: 400px;
   height: 100%;
   max-height: 400px;
   object-fit: contain;
+}
+
+.teamtitlefont {
+  font-family: Volkhov;
 }
 
 .project2titlefont {
@@ -196,8 +113,10 @@
   background-color: #f5eec2;
 }
 
-/* margin for project2 text spacing */
 .margin {
   margin-top: 100px;
 }
 
+.teambackground {
+  background-color: #39395f;
+}
