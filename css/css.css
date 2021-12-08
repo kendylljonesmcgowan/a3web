@@ -73,9 +73,11 @@
 }
 
 #sTitle{
-  color: #000000
+  color: #000000;
 }
-
+.ServiceText{
+  font: italic;
+}
 #footer{
   background-color: #39395f;
 }
