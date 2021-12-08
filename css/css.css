@@ -32,6 +32,9 @@
   visibility: hidden;
   }
   
+  .dropdownbg{
+    background-color:#416a59;
+  }
 /*Vince's Part*/
 #bg {
   /* The image used */
