@@ -132,25 +132,34 @@
 /* object-fit contain CSS for headshot images inspired by w3schools: https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
 /* index.html css */
-
+/* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
 .headshot {
   width: 200px;
   height: 300px;
   object-fit: contain;
 }
 
-/* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
+.teamtitlefont {
+  font-family: Volkhov;
+}
 
+.teambackground {
+  background-color: #39395f;
+}
+
+.btn-purple {
+  color: #505088;
+}
+
+
+
+/* css for project2 page (LiDAR and Bathymetry services) */
 .project2img {
   width: 100%;
   max-width: 400px;
   height: 100%;
   max-height: 400px;
   object-fit: contain;
-}
-
-.teamtitlefont {
-  font-family: Volkhov;
 }
 
 .project2titlefont {
@@ -161,14 +170,8 @@
   background-color: #f5eec2;
 }
 
+/* margin for project2 text spacing */
 .margin {
   margin-top: 100px;
 }
 
-.teambackground {
-  background-color: #39395f;
-}
-
-.btn-purple {
-  color: #505088;
-}
