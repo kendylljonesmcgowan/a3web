@@ -92,7 +92,11 @@
 }
 
 .teamtitlefont {
-  font-family: Volkhov;
+  font-family: "Volkhov";
+}
+
+.teamfont {
+  font-family: "Lato";
 }
 
 .btn-purple {
@@ -115,12 +119,12 @@
 }
 
 .project2titlefont {
-  font-family: Volkhov;
+  font-family: "Volkhov";
   color: #39395f;
 }
 
 .project2font {
-  font-family: Lato;
+  font-family: "Lato";
   color: #39395f;
 }
 
