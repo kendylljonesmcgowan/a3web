@@ -101,6 +101,14 @@
   object-fit: contain;
 }
 
+.teamtitlefont {
+  font-family: Volkhov;
+}
+
+.project2titlefont {
+  font-family: Volkhov;
+}
+
 .project2background{
   background-color: #f5eec2;
 }
