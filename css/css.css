@@ -128,9 +128,10 @@
 
 /* Kendyll's Part */
 
-/* object-fit contain CSS for headshot images inspired by w3schools: https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
+/* object-fit contain CSS for .headshot and .project2img inspired by w3schools: 
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
-/* index.html css */
+/* index.html css for "Our Team" section */
 
 .headshot {
   width: 200px;
@@ -154,10 +155,10 @@
   background-color: #39395f;
 }
 
-/* project 2 css color: #73a24e, color: #f5eec2, color: #416a59 */
-/* project 2 page css (LiDAR and Bathymetry */
+/* project2.html css for LiDAR and Bathymetry project page */
 
 .project2img {
+  border-radius: 15px;
   width: 100%;
   max-width: 400px;
   height: 100%;
