@@ -25,23 +25,18 @@
   }
 
   .project3{
-    border-radius: 15px;  
-    width: 100%;
-    max-width: 400px;
-    height: 100%;
-    max-height: 400px;
-    object-fit: contain;  
+  border-radius: 15px;  
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;  
 }
 
   .sectionmargin{
-    margin-top: 100px;
+  margin-top: 100px;
 }
-  .p3titlefont{
-    font-family: "Volkhov, Bold"; 
-  }
-  .p3font{
-    font-family: "Lato";
-  }
+
 /*Vince's Part*/
 /* FOR INDEX */
 #bg {
@@ -107,6 +102,14 @@
   /* text-align: center;
   text-decoration: none;
   margin: 5px 2px; */
+}
+
+.parahead {
+  font-family: "Volkhov";
+}
+
+.para4{
+  font-family: "Lato";
 }
 
 /* Colin's Part */
