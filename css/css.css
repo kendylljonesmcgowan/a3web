@@ -166,7 +166,7 @@
 #p1text{
   font-family: "Lato";
 }
-#p1text{
+#p1head{
   font-family: "Volkhov";
 }
 
@@ -249,6 +249,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
 .margin {
   margin-top: 100px;
+}
+
+.footericon {
+  background-color: #f5eec2;
 }
 
 /* trying to change button colour */
