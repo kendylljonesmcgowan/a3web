@@ -127,22 +127,40 @@
   padding: 5rem 0;
 }
 
-#serviceText.mb-0{
+.ServiceText{
   font-family: "Lato";
+  text-align: center;
 }
 
 #services, #contact{
   background-color: #f5eec2;
 }
-#sIcon{
+.sIcon{
+  color: #416a59;
+}
+.cIcon{
   color: #416a59;
 }
 
-#sTitle{
+.sTitle{
   color: #416a59;
   font-family: "Volkhov";
+  text-align: center;
 }
-#sDivider{
+
+.cTitle{
+  color: #416a59;
+  font-family: "Volkhov";
+  text-align: center;
+}
+
+.sDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+
+.cDivider{
   max-width: 20vw;
   border-width: 0.2rem;
   border-color: #416a59;
