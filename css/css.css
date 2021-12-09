@@ -158,9 +158,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
   font-family: "Lato";
 }
 
-/* .btn-purple {
-  background-color: #565694;
-}  */
+.btn {
+  color:#24243b;
+  background-color:#565694;
+  border-color:#24243b;
+}
+.btn:hover {
+  color:#24243b;
+  background-color:#6666aa;
+  border-color:#24243b;
+}
 
 .teambackground {
   background-color: #39395f;
@@ -196,16 +203,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 }
 
 /* trying to change button colour */
-.btn {
-  color:#39395f;
-  background-color:#565694;
-  border-color:#f8f9fa;
-}
-.btn:hover {
-  color:#39395f;
-  background-color:#9b9bda;
-  border-color:#dae0e5;
-}
+
 
 /* .btn-light.focus,
 .btn-light:focus{color:#212529;background-color:#e2e6ea;border-color:#dae0e5;box-shadow:0 0 0 .2rem rgba(216,217,219,.5)}
