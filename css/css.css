@@ -255,13 +255,13 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
   object-fit: contain;
 }
 
-.project2titlefont {
+.projecttitlefont {
   font-family: "Volkhov";
   font-weight: bold;
   color: #39395f;
 }
 
-.project2font {
+.projectfont {
   font-family: "Lato";
   color: #39395f;
 }
