@@ -218,10 +218,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
   background-color: #39395f;
 }
 
-.fa-memo-circle-check {
-  color:#f5eec2
-}
-
 /* project2.html css for LiDAR and Bathymetry project page */
 
 .project2img {
@@ -252,7 +248,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 }
 
 .footericon {
-  background-color: #f5eec2;
+  color: #f5eec2;
+  size: 20;
 }
 
 /* trying to change button colour */
