@@ -135,22 +135,11 @@
 #services, #contact{
   background-color: #f5eec2;
 }
-.s1Icon{
+.sIcon{
   color: #416a59;
 }
-.s2Icon{
-  color: #416a59;
-}
-.s3Icon{
-  color: #416a59;
-}
-.s4Icon{
-  color: #416a59;
-}
-.c1Icon{
-  color: #416a59;
-}
-.c2Icon{
+
+.cIcon{
   color: #416a59;
 }
 .sTitle{
@@ -173,7 +162,7 @@
   border-width: 0.2rem;
   border-color: #416a59;
 }
-#tDivider{
+.tDivider{
   max-width: 20vw;
   border-width: 0.2rem;
   border-color: #f5eec2;
