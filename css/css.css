@@ -110,6 +110,10 @@
   padding: 5rem 0;
 }
 
+#p.serviceText{
+  font-family: "Lato";
+}
+
 #services, #contact{
   background-color: #f5eec2;
 }
@@ -171,6 +175,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
 .teambackground {
   background-color: #39395f;
+}
+
+.fa-memo-circle-check {
+  color:#f5eec2
 }
 
 /* project2.html css for LiDAR and Bathymetry project page */
