@@ -156,10 +156,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 
 .teamtitlefont {
   font-family: "Volkhov";
+  color:#f5eec2
 }
 
 .teamfont {
   font-family: "Lato";
+  color:#f5eec2
 }
 
 .btn {
