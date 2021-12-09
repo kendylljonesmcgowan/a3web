@@ -37,7 +37,7 @@
   margin-top: 100px;
 }
   .p3font{
-    font-family: "Volkhov, Bold";
+    font-family: "Volkhov";
   }
 
 /*Vince's Part*/
@@ -179,6 +179,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 .teamfont {
   font-family: "Lato";
   color:#f5eec2;
+}
+
+.footfont {
+  font-family: "Lato";
+  color:#f5eec2;
+  font-size: 10;
 }
 
 .btn {
