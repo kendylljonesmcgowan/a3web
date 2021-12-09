@@ -200,7 +200,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 .footfont {
   font-family: "Lato";
   color:#f5eec2;
-  font-size: 5;
+  font-size: 1.2vh;
 }
 
 .btn {
@@ -230,7 +230,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 }
 
 .project2titlefont {
-  font-family: "Volkhov Bold";
+  font-family: "Volkhov";
+  font-weight: bold;
   color: #39395f;
 }
 
@@ -246,19 +247,3 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 .margin {
   margin-top: 100px;
 }
-
-.footericon {
-  color: #f5eec2;
-  size: 20;
-}
-
-/* trying to change button colour */
-
-
-/* .btn-light.focus,
-.btn-light:focus{color:#212529;background-color:#e2e6ea;border-color:#dae0e5;box-shadow:0 0 0 .2rem rgba(216,217,219,.5)}
-.btn-light.disabled,.btn-light:disabled{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa}
-.btn-light:not(:disabled):not(.disabled).active,
-.btn-light:not(:disabled):not(.disabled):active,
-.show>.btn-light.dropdown-toggle{color:#212529;background-color:#dae0e5;border-color:#d3d9df}.btn-light:not(:disabled):not(.disabled).active:focus,.btn-light:not(:disabled):not(.disabled):active:focus,.show>
-.btn-light.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(216,217,219,.5)} */
