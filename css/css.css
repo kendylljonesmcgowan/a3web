@@ -110,6 +110,10 @@
   padding: 5rem 0;
 }
 
+#p.serviceText{
+  font-family: "Lato";
+}
+
 #services, #contact{
   background-color: #f5eec2;
 }
