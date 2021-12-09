@@ -136,6 +136,16 @@
   color: #000000;
   font-family: "Volkhov";
 }
+#sDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+#tDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #f5eec2;
+}
 .project1img{
   border-radius: 15px;  
   width: 100%;
