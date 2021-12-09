@@ -147,6 +147,12 @@
 #project1page{
   background-color: #f5eec2;
 }
+#p1text{
+  font-family: "Lato";
+}
+#p1text{
+  font-family: "Volkhov";
+}
 
 #footer{
   background-color: #416a59;
@@ -178,7 +184,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
 .footfont {
   font-family: "Lato";
   color:#f5eec2;
-  font-size: 20;
+  font-size: 10;
 }
 
 .btn {
