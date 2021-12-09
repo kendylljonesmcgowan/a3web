@@ -36,7 +36,12 @@
   .sectionmargin{
   margin-top: 100px;
 }
-
+  .p3titlefont{
+    font-family: "Volkhov, Bold";
+  }
+  .p3font{
+    font-family: "Lato";
+  }
 /*Vince's Part*/
 /* FOR INDEX */
 #bg {
