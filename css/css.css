@@ -189,10 +189,14 @@
 #project1page{
   background-color: #f5eec2;
 }
-#p1text{
+.p1title{
+  font-family: "Volkhov";
+  text-align: center;
+}
+.p1text{
   font-family: "Lato";
 }
-#p1head{
+.p1head{
   font-family: "Volkhov";
 }
 
