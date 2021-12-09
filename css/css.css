@@ -175,6 +175,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
   color:#f5eec2;
 }
 
+.footfont {
+  font-family: "Lato";
+  color:#f5eec2;
+  font-size: 20;
+}
+
 .btn {
   color:#24243b;
   background-color:#565694;
